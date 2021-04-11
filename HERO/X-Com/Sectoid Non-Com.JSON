@@ -1,0 +1,199 @@
+{
+"appversion":"20201125",
+"exportid":"20210411183319",
+"name":"Sectoid Non-Com",
+"playername":"",
+"version":3.0,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":8,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"HTH Damage 1½d6  END [1]"},
+"dex":{"value":13,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"con":{"value":8,"roll":"11-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":18,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":8,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"PRE Attack: 1½d6"},
+"spd":{"value":2,"roll":"9-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":2,"roll":"9-","mod":0},"notes":"Phases: 6, 12"},
+"ocv":{"value":3,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":3,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":4,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":8,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"8 PD (0 rPD)"},
+"pdr":{"value":8,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"8 PD (0 rPD)"},
+"ed":{"value":12,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"12 ED (0 rED)"},
+"edr":{"value":12,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"12 ED (0 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":4,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"body":{"value":8,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"end":{"value":20,"roll":"13-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"stun":{"value":20,"roll":"13-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"10m","noncombat":"20m","primary":{"combat":{"description":"10m","value":10},"noncombat":{"description":"20m","value":20}},"secondary":{"combat":{"description":"10m","value":10},"noncombat":{"description":"20m","value":20}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Computer Programming ","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1618176515051,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 12-"},
+	{"name":"Concealment ","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1618176522145,"type":"Concealment","input":"","level":"0","active":"3","base":"3","XMLID":"CONCEALMENT","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Concealment 12-"},
+	{"name":"Electronics ","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1618176581329,"type":"Electronics","input":"","level":"0","active":"3","base":"3","XMLID":"ELECTRONICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Electronics 12-"},
+	{"name":"KS: Invasion Plans ","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1618176649437,"type":"KS","input":"","level":"0","active":"1","base":"1","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Invasion Plans 8-"},
+	{"name":"KS: Sectoid Society ","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1618176607539,"type":"KS","input":"","level":"0","active":"0","base":"0","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Sectoid Society 8-"},
+	{"name":"Language: SpinDelta ","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618176674217,"type":"Language","input":"idiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: SpinDelta (idiomatic) (4 Active Points)"},
+	{"name":"Language: English ","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618176720707,"type":"Language","input":"basic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: English (basic conversation)"},
+	{"name":"Language: French ","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618176764940,"type":"Language","input":"basic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: French (basic conversation)"},
+	{"name":"Language: Hindi ","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618176730129,"type":"Language","input":"basic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Hindi (basic conversation)"},
+	{"name":"Language: Mandarin ","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618176742893,"type":"Language","input":"basic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Mandarin (basic conversation)"},
+	{"name":"Language: Spanish ","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618176771461,"type":"Language","input":"basic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Spanish (basic conversation)"},
+	{"name":"PS: Job Position ","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1618176898779,"type":"Professional Skill","input":"","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Job Position 12-"},
+	{"name":"Science Skill: Expert Position ","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1618176916255,"type":"Science Skill","input":"","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Expert Position 12-"},
+	{"name":"Shadowing ","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1618176975993,"type":"Shadowing","input":"","level":"0","active":"0","base":"0","XMLID":"SHADOWING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Shadowing 8-"},
+	{"name":"Skill Levels ","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618177002945,"type":"Skill Levels","input":"with any three pre-defined Skills","level":"1","active":"3","base":"3","XMLID":"SKILL_LEVELS","modifiers":[],"adders":[],"option":"with any three pre-defined Skills","optionAlias":"with PS, SS and Systems Operation","optionID":"RELATED","text":"+1 with PS, SS and Systems Operation"},
+	{"name":"Stealth ","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1618177510898,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 12-"},
+	{"name":"Systems Operation: Sensors (per job) ","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1618178595979,"type":"Systems Operation","input":"","level":"0","active":"3","base":"3","XMLID":"SYSTEMS_OPERATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Systems Operation: Sensors (per job) 12-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1618180231434,"type":"Distinctive Features","input":"","level":"0","active":"15","base":"15","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1618180269421,"type":"Concealability","input":"Concealable","level":"0"},{"name":"No Name Supplied","uid":1618180269427,"type":"Reaction","input":"Always Noticed and Causes Major Reaction","level":"0"},{"name":"No Name Supplied","uid":1618180269433,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]}],
+"combatlevels":[],
+"powers":[],
+"equipment":[
+	{"name":"Plasma Pistol","uid":1618175351854,"type":"Killing Ranged","weight":"","value":"","damage":"2d6+1","range":"350m","input":"ED","level":"2","end":"[8 bc]","active":"44","base":"35","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"Plasma Pistol","uid":1618175533569,"type":"Armor Piercing","damage":"2d6+1","range":"350m","input":"","level":"1"},{"value":"-1","name":"Plasma Pistol","uid":1618175547568,"type":"Focus","damage":"2d6+1","range":"350m","input":"OAF","level":"0"},{"value":"-¼","name":"Plasma Pistol","uid":1618175574097,"type":"Real Weapon","damage":"2d6+1","range":"350m","input":"","level":"0"},{"value":"-0","name":"Plasma Pistol","uid":1618175587232,"type":"Charges","damage":"2d6+1","range":"350m","input":"8","level":"0"}],"adders":[{"name":"Plasma Pistol","uid":1618175533568,"type":"+1 pip","damage":"2d6+1","range":"350m","input":"","level":"0"}]}],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Plasma Pistol","uid":1618175351854,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. ED) 350m, [8 bc] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
