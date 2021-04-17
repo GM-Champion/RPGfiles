@@ -1,0 +1,217 @@
+{
+"appversion":"20210301",
+"exportid":"20210417152641",
+"name":"Ricardo Richardson",
+"playername":"Kenyon",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":10,"roll":"11-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"con":{"value":10,"roll":"11-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":20,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":18,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PRE Attack: 3½d6"},
+"spd":{"value":2,"roll":"9-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":2,"roll":"9-","mod":0},"notes":"Phases: 6, 12"},
+"ocv":{"value":3,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":3,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":2,"roll":"9-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":2,"roll":"9-","mod":0},"notes":"2 PD (0 rPD)"},
+"pdr":{"value":0,"roll":"9-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"9-","mod":0},"secondary":{"value":0,"roll":"9-","mod":0},"notes":"2 PD (0 rPD)"},
+"ed":{"value":2,"roll":"9-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":2,"roll":"9-","mod":0},"notes":"2 ED (0 rED)"},
+"edr":{"value":2,"roll":"9-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":2,"roll":"9-","mod":0},"notes":"2 ED (0 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":4,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":20,"roll":"13-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"stun":{"value":20,"roll":"13-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Language: English ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618686364414,"type":"Language","input":"imitate dialects","level":"0","active":"5","base":"5","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"imitate dialects","optionAlias":"imitate dialects","optionID":"DIALECTS","text":"Language: English (imitate dialects) (5 Active Points)"},
+	{"name":"Language: French ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618268394816,"type":"Language","input":"fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: French (fluent conversation) (2 Active Points)"},
+	{"name":"Language: Spanish ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618271721043,"type":"Language","input":"fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Spanish (fluent conversation) (2 Active Points)"},
+	{"name":"Language: Tuscarora ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618272855500,"type":"Language","input":"fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Tuscarora (fluent conversation) (2 Active Points)"},
+	{"name":"PS: Mechanical Engineering ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618268453730,"type":"Professional Skill","input":"","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Mechanical Engineering 11-"},
+	{"name":"PS: Renewable Energy Science ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618272296920,"type":"Professional Skill","input":"","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Renewable Energy Science 11-"},
+	{"name":"SS: Physics ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618269555511,"type":"Science Skill","input":"","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Physics 11- (2 Active Points)"},
+	{"name":"SS: Radiation Science ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618271096123,"type":"Science Skill","input":"","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Radiation Science 11- (2 Active Points)"},
+	{"name":"SS: Solar Energy Technology ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618269988087,"type":"Science Skill","input":"","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Solar Energy Technology 11- (2 Active Points)"},
+	{"name":"Science Skill:Thermodynamics ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618687193931,"type":"Science Skill","input":"","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill:Thermodynamics 11- (2 Active Points)"},
+	{"name":"Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1618644929486,"type":"Skill Levels","input":"Overall","level":"1","active":"12","base":"12","XMLID":"SKILL_LEVELS","modifiers":[],"adders":[],"option":"Overall","optionAlias":"Overall","optionID":"OVERALL","text":"+1 Overall"},
+	{"name":"Riding ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618273482069,"type":"Riding","input":"","level":"0","active":"3","base":"3","XMLID":"RIDING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Riding 11-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618268416158,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 11-"},
+	{"name":"Computer Programming ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618272941696,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 13-"},
+	{"name":"Cryptography ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618272934531,"type":"Cryptography","input":"","level":"0","active":"3","base":"3","XMLID":"CRYPTOGRAPHY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Cryptography 13-"},
+	{"name":"Electronics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618272920540,"type":"Electronics","input":"","level":"0","active":"3","base":"3","XMLID":"ELECTRONICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Electronics 13-"},
+	{"name":"Mechanics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618267992448,"type":"Mechanics","input":"","level":"0","active":"3","base":"3","XMLID":"MECHANICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Mechanics 13-"},
+	{"name":"Shadowing ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618273684029,"type":"Shadowing","input":"","level":"0","active":"3","base":"3","XMLID":"SHADOWING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Shadowing 13-"},
+	{"name":"Survival ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618268423337,"type":"Survival","input":"","level":"0","active":"2","base":"2","XMLID":"SURVIVAL","modifiers":[],"adders":[{"XMLID":"TEMPERATE","name":"","uid":1618643578331,"cost":"2","type":"Temperate/Subtropical","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Survival (Temperate/Subtropical) 13-"},
+	{"name":"Systems Operation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618267997306,"type":"Systems Operation","input":"","level":"0","active":"3","base":"3","XMLID":"SYSTEMS_OPERATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Systems Operation 13-"},
+	{"name":"Conversation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618268356456,"type":"Conversation","input":"","level":"0","active":"3","base":"3","XMLID":"CONVERSATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Conversation 13-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618268349244,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 13-"},
+	{"name":"AK: Hispaniola ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618273294981,"type":"Knowledge Skill","input":"","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Hispaniola (2 Active Points) 11-"},
+	{"name":"AK: Neuse River Basin ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618272159078,"type":"Knowledge Skill","input":"","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Neuse River Basin (2 Active Points) 11-"},
+	{"name":"AK: Niagra Falls ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618273378217,"type":"Knowledge Skill","input":"","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Niagra Falls (2 Active Points) 11-"},
+	{"name":"CuK: Civil War Battle Sites ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618269667007,"type":"Knowledge Skill","input":"","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CuK: Civil War Battle Sites (2 Active Points) 11-"},
+	{"name":"CuK: TTRPG Actual Play Youtubers ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618269639267,"type":"Knowledge Skill","input":"","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CuK: TTRPG Actual Play Youtubers (2 Active Points) 11-"},
+	{"name":"CuK: Wines of the Loire Valley ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1618646785408,"type":"Knowledge Skill","input":"","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CuK: Wines of the Loire Valley (2 Active Points) 11-"},
+	{"name":"CK: New Bern City ","stat":"GENERAL","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1618687398312,"type":"Knowledge Skill","input":"","level":"0","active":"0","base":"0","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: New Bern City 8-"},
+	{"name":"Inventor ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618267985515,"type":"Inventor","input":"","level":"0","active":"3","base":"3","XMLID":"INVENTOR","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Inventor 13-"},
+	{"name":"Tracking ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618268351689,"type":"Tracking","input":"","level":"0","active":"3","base":"3","XMLID":"TRACKING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tracking 13-"},
+	{"name":"Oratory ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618272421546,"type":"Oratory","input":"","level":"0","active":"3","base":"3","XMLID":"ORATORY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Oratory 13-"},
+	{"name":"Persuasion ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1618272906306,"type":"Persuasion","input":"","level":"0","active":"3","base":"3","XMLID":"PERSUASION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Persuasion 13-"}],
+"talents":[
+	{"name":"Speed Reading ","roll":"","uid":1618271324585,"type":"Speed Reading","input":"","level":"2","active":"6","base":"6","XMLID":"SPEED_READING","modifiers":[],"adders":[]},
+	{"name":"Eidetic Memory ","roll":"","uid":1618271680230,"type":"Eidetic Memory","input":"","level":"0","active":"5","base":"5","XMLID":"EIDETIC_MEMORY","modifiers":[],"adders":[]},
+	{"name":"Lightning Calculator ","roll":"","uid":1618272410397,"type":"Lightning Calculator","input":"","level":"0","active":"3","base":"3","XMLID":"LIGHTNING_CALCULATOR","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Fringe Benefit ","roll":"","uid":1618271473449,"type":"Fringe Benefit","input":"","level":"0","active":"3","base":"3","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1618271485528,"type":"International Driver's License","input":"","level":"0"},{"name":"No Name Supplied","uid":1618271486857,"type":"Passport","input":"","level":"0"},{"name":"No Name Supplied","uid":1618271491046,"type":"Right to Marry: Can perform the marriage ceremony","input":"","level":"0"}]}],
+"disads":[],
+"combatlevels":[
+	{"name":"Skill Levels","roll":"","uid":1618644929486,"type":"Skill Levels","input":"Overall","level":"1","active":"12","base":"12","XMLID":"SKILL_LEVELS","modifiers":[],"adders":[]}],
+"powers":[],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
