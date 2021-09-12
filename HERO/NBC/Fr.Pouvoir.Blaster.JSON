@@ -1,0 +1,193 @@
+{
+"appversion":"20210301",
+"exportid":"20210731002508",
+"name":"Blaster",
+"playername":"",
+"version":3.2,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":23,"roll":"14-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"con":{"value":30,"roll":"15-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":25,"roll":"14-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"PRE Attack: 5d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":9,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":9,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":10,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"10/25 PD (0/15 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":15,"roll":"14-","mod":0},"notes":"10/25 PD (0/15 rPD)"},
+"ed":{"value":10,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"10/25 ED (0/15 rED)"},
+"edr":{"value":0,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":15,"roll":"14-","mod":0},"notes":"10/25 ED (0/15 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":15,"roll":"12-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"body":{"value":12,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"end":{"value":100,"roll":"29-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":100,"roll":"29-","mod":0},"secondary":{"value":100,"roll":"29-","mod":0},"notes":""},
+"stun":{"value":50,"roll":"19-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":50,"roll":"19-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"23m","noncombat":"46m","primary":{"combat":{"description":"23m","value":23},"noncombat":{"description":"46m","value":46}},"secondary":{"combat":{"description":"23m","value":23},"noncombat":{"description":"46m","value":46}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"KS: Vehicles, Face, Modeling, Photography ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1627703110134,"type":"KS","input":"","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Vehicles, Face, Modeling, Photography 11-"}],
+"talents":[
+	{"name":"Striking Appearance ","roll":"","uid":1627703196904,"type":"Striking Appearance","input":"vs. all characters","level":"2","active":"6","base":"6","XMLID":"STRIKING_APPEARANCE","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[],
+"combatlevels":[],
+"powers":[
+	{"name":"LIght Redirection","uid":1627703366850,"type":"Multipower","damage":"","range":"","input":"","level":"0","end":"","active":"65","base":"65","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Negate Darkon Blast","uid":1627704747597,"type":"Drain","damage":"6½d6","range":"650m","input":"BODY","level":"6","end":"6","active":"65","base":"65","XMLID":"DRAIN","strMod":false,"class":{"attack":true,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1627704988582,"type":"+½ d6","damage":"6½d6","range":"650m","input":"","level":"0"}]},
+	{"name":"Rapid Strobe v. Flash Defense","uid":1627704502165,"type":"Blast","damage":"6d6","range":"300m","input":"ED","level":"6","end":"6","active":"60","base":"30","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1627704685501,"type":"Attack Versus Alternate Defense","damage":"6d6","range":"300m","input":"Flash Defense (Sight)Very Common -> Uncommon","level":"0"}],"adders":[]},
+	{"name":"Zorch","uid":1627703341195,"type":"Blast","damage":"13d6","range":"650m","input":"ED","level":"13","end":"6","active":"65","base":"65","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1627703251040,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1627703326510,"type":"Unified Power","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Holograms","uid":1627704329898,"type":"Images","damage":"","range":"220m","input":"Sight Group","level":"0","end":"6","active":"33","base":"22","XMLID":"IMAGES","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1627705457267,"type":"Area Of Effect","damage":"","range":"220m","input":"Any Area","level":"4"},{"value":"-½","name":"","uid":1627705464310,"type":"Increased Endurance Cost","damage":"","range":"220m","input":"x2 END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1627705457248,"type":"+/-4 to PER Rolls","damage":"","range":"220m","input":"","level":"4"}]},
+	{"name":"No Name Supplied","uid":1627703955177,"type":"Invisibility","damage":"","range":"","input":"Sight Group","level":"0","end":"3","active":"30","base":"30","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1627703976250,"type":"No Fringe","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Displacement","uid":1627704285135,"type":"Resistant Protection","damage":"","range":"","input":"","level":"30","end":"0","active":"45","base":"45","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Negate Darkon Blast","uid":1627704747597,"gameEdition":6,"tool":"6½d6, Drain (vs. BODY) 650m, 6 end.","diceMod":0,"dice":6,"halfDice":true,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Rapid Strobe v. Flash Defense","uid":1627704502165,"gameEdition":6,"tool":"6d6, Blast (vs. ED) 300m, 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Zorch","uid":1627703341195,"gameEdition":6,"tool":"13d6, Blast (vs. ED) 650m, 6 end.","diceMod":0,"dice":13,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Holograms","uid":1627704329898,"gameEdition":6,"tool":"Images (vs. Sight Group) 220m, 6 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
