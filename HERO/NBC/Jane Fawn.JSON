@@ -1,6 +1,6 @@
 {
 "appversion":"20210301",
-"exportid":"20211010230756",
+"exportid":"20211010231150",
 "name":"Jane Fawn",
 "playername":"Cathy",
 "version":3.2,
@@ -51,7 +51,7 @@
 	{"name":"Mimicry ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1552438008315,"type":"Mimicry","input":"","level":"0","active":"3","base":"3","XMLID":"MIMICRY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Mimicry 13-"},
 	{"name":"Persuasion ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1552437758863,"type":"Persuasion","input":"","level":"0","active":"3","base":"3","XMLID":"PERSUASION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Persuasion 13-"},
 	{"name":"PS: Private Investigator ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1563931907044,"type":"Professional Skill","input":"","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS 11-"},
-	{"name":"KS (Metanatural People) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1633921586023,"type":"KS","input":"Metanatural People","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Metanatural People (2 Active Points) 11-"},
+	{"name":"KS: Metanatural People ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1633921586023,"type":"KS","input":"","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Metanatural People (2 Active Points) 11-"},
 	{"name":"Science Skill: Mnemonology ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1577558439160,"type":"Science Skill","input":"","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 13- (3 Active Points)"},
 	{"name":"Science Skill: Psychology ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1552437709500,"type":"Science Skill","input":"","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 13- (3 Active Points)"},
 	{"name":"Science Skill: Social Work ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1552437724304,"type":"Science Skill","input":"","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 13- (3 Active Points)"},
