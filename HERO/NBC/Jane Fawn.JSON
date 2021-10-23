@@ -1,6 +1,6 @@
 {
 "appversion":"20210301",
-"exportid":"20211010231150",
+"exportid":"20211010233642",
 "name":"Jane Fawn",
 "playername":"Cathy",
 "version":3.2,
@@ -35,6 +35,7 @@
 "leap":{"current":"primary","combat":"8m","noncombat":"16m","primary":{"combat":{"description":"8m/4m","value":8},"noncombat":{"description":"16m","value":16}},"secondary":{"combat":{"description":"8m/4m","value":8},"noncombat":{"description":"16m","value":16}},"icon":"ui_leap","notes":"8m forward, 4m upward"}},
 "skills":[
 	{"name":"Perception ","roll":"15-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 15-"},
+	{"name":"Bureaucratics ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1633922542455,"type":"Bureaucratics","input":"","level":"0","active":"3","base":"3","XMLID":"BUREAUCRATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bureaucratics 13-"},
 	{"name":"Charm ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1563932067121,"type":"Charm","input":"","level":"0","active":"3","base":"3","XMLID":"CHARM","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Charm 13-"},
 	{"name":"Computer Programming ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1552437658853,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 13-"},
 	{"name":"Concealment ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1552437948544,"type":"Concealment","input":"","level":"0","active":"3","base":"3","XMLID":"CONCEALMENT","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Concealment 13-"},
