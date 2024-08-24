@@ -1,0 +1,229 @@
+{
+"appversion":"20240314",
+"exportid":"20240824181008",
+"name":"Justin Drake",
+"playername":"David Schultz",
+"version":3.2,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":30,"roll":"15-","shortname":"str","name":"Strength","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"HTH Damage 6d6  END [2]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":18,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":15,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":15,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PRE Attack: 3d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":8,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":8,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":5,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"5/25 PD (0/20 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":20,"roll":"14-","mod":0},"notes":"5/25 PD (0/20 rPD)"},
+"ed":{"value":5,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"5/25 ED (0/20 rED)"},
+"edr":{"value":0,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":20,"roll":"14-","mod":0},"notes":"5/25 ED (0/20 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":15,"roll":"12-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"body":{"value":15,"roll":"12-","shortname":"body","name":"Body","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"end":{"value":60,"roll":"21-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":60,"roll":"21-","mod":0},"secondary":{"value":60,"roll":"21-","mod":0},"notes":""},
+"stun":{"value":50,"roll":"19-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":50,"roll":"19-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"44m","noncombat":"88m","primary":{"combat":{"description":"44m","value":44},"noncombat":{"description":"88m","value":88}},"secondary":{"combat":{"description":"44m","value":44},"noncombat":{"description":"88m","value":88}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"25m","noncombat":"400m","primary":{"combat":{"description":"25m","value":25},"noncombat":{"description":"400m","value":400}},"secondary":{"combat":{"description":"25m","value":25},"noncombat":{"description":"400m","value":400}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"24m","noncombat":"48m","primary":{"combat":{"description":"24m/12m","value":24},"noncombat":{"description":"48m","value":48}},"secondary":{"combat":{"description":"24m/12m","value":24},"noncombat":{"description":"48m","value":48}},"icon":"ui_leap","notes":"24m forward, 12m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Acrobatics ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815143550,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acrobatics 13-"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815147034,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 13-"},
+	{"name":"Bureaucratics ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1581815150182,"type":"Bureaucratics","input":"","level":"0","active":"3","base":"3","XMLID":"BUREAUCRATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bureaucratics 12-"},
+	{"name":"Concealment ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815154717,"type":"Concealment","input":"","level":"0","active":"3","base":"3","XMLID":"CONCEALMENT","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Concealment 13-"},
+	{"name":"Conversation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1581815161419,"type":"Conversation","input":"","level":"0","active":"3","base":"3","XMLID":"CONVERSATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Conversation 12-"},
+	{"name":"Cryptography ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815164976,"type":"Cryptography","input":"","level":"0","active":"3","base":"3","XMLID":"CRYPTOGRAPHY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Cryptography 13-"},
+	{"name":"Deduction ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815167504,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 13-"},
+	{"name":"Forgery ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815173424,"type":"Forgery","input":"","level":"0","active":"2","base":"2","XMLID":"FORGERY","modifiers":[],"adders":[{"XMLID":"OTHERGENERAL","name":"","uid":1581815208695,"cost":"2","type":"Other (General)","input":"Antiquities","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Forgery (Other (General) Antiquities) 13-"},
+	{"name":"Navigation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815497281,"type":"Navigation","input":"","level":"0","active":"2","base":"2","XMLID":"NAVIGATION","modifiers":[],"adders":[{"XMLID":"LAND","name":"","uid":1581815510068,"cost":"2","type":"Land","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Navigation (Land) 13-"},
+	{"name":"PS: Archeologist (Archeologist) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815621385,"type":"Professional Skill","input":"Archeologist","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Archeologist 13-"},
+	{"name":"Research: Research ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1716653841955,"type":"Custom Skill","input":"","level":"3","active":"3","base":"3","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Research 13-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815488113,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 13-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1581815516030,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 12-"},
+	{"name":"Language (Hungarian (Magyar)) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1581828833137,"type":"Language","input":"Hungarian (Magyar)basic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Hungarian (Magyar) (basic conversation)"},
+	{"name":"Language (Latin) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1581881992751,"type":"Language","input":"Latinbasic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Latin (basic conversation)"},
+	{"name":"Language (Romanian) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1581827897849,"type":"Language","input":"Romanianbasic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Romanian (basic conversation)"},
+	{"name":"Language (Romany) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1581827288950,"type":"Language","input":"Romanybasic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Romany (basic conversation)"},
+	{"name":"KS: Archeology (Archeology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815535821,"type":"KS","input":"Archeology","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Archeology (3 Active Points) 13-"},
+	{"name":"KS: Mythology (Mythology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581816398309,"type":"KS","input":"Mythology","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Mythology (3 Active Points) 13-"},
+	{"name":"KS: Occult Knowledge (The occult) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1581815572581,"type":"KS","input":"The occult","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The occult (3 Active Points) 13-"},
+	{"name":"KS: Religion (Religion) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1581816818042,"type":"KS","input":"Religion","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Religion (2 Active Points) 11-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Accidental Change","roll":"","uid":1581828915795,"type":"Accidental Change","input":"When takes body damage","level":"0","active":"5","base":"5","XMLID":"ACCIDENTALCHANGE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1582076870297,"type":"Chance To Change","input":"Infrequently (8-)","level":"0"},{"name":"No Name Supplied","uid":1582076870303,"type":"Circumstances","input":"Uncommon","level":"0"}]},
+	{"name":"Distinctive Features","roll":"","uid":1581829613357,"type":"Distinctive Features","input":"Mystical Aura","level":"0","active":"10","base":"10","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1581829650228,"type":"Concealability","input":"Not Concealable","level":"0"},{"name":"No Name Supplied","uid":1581829650234,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1581829650240,"type":"Sensing","input":"Detectable By Uncommonly-Used Senses","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1582075514578,"type":"Psychological Complication","input":"Protect those who cannot protect themselves","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1582075526910,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1582075526916,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1582075680631,"type":"Social Complication","input":"Secret Identity","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1582075693203,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1582075693209,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1582076785667,"type":"Psychological Complication","input":"Overconfidence","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1582076802295,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1582076802301,"type":"Intensity Is","input":"Strong","level":"0"}]}],
+"combatlevels":[],
+"powers":[
+	{"name":"Dragon's Assault","uid":1581817278807,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1583115185493,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Dragon's Might","uid":1581817956139,"type":"STR","damage":"","range":"","input":"","level":"45","end":"4","active":"45","base":"45","XMLID":"STR","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Claw Slap","uid":1581818566657,"type":"STR","damage":"","range":"","input":"","level":"30","end":"4","active":"40","base":"32","XMLID":"STR","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1582681350830,"type":"Armor Piercing","damage":"","range":"","input":"","level":"1"}],"adders":[{"name":"No Name Supplied","uid":1582681350829,"type":"","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Enhanced Strength","uid":1716665934592,"type":"STR","damage":"","range":"","input":"","level":"15","end":"1","active":"15","base":"15","XMLID":"STR","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Claws","uid":1716665968713,"type":"Killing Attack - Hand-To-Hand","damage":"2d6 (4d6 w/STR)","range":"","input":"ED","level":"2","end":"3","active":"30","base":"30","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Dragon's Breath","uid":1583117638213,"type":"Blast","damage":"8d6","range":"","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1583119741607,"type":"Area Of Effect","damage":"8d6","range":"","input":"Cone","level":"8"},{"value":"-½","name":"","uid":1583119741610,"type":"No Range","damage":"8d6","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1583119741611,"type":"No Knockback","damage":"8d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1583119741616,"type":"Variable Special Effects","damage":"8d6","range":"","input":"Limited Group of SFX","level":"0"}],"adders":[]},
+	{"name":"Dragon's Guard","uid":1581818353750,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"40","base":"40","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1583115311236,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1583115321039,"type":"Unified Power","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1581819369064,"type":"Running","damage":"","range":"","input":"","level":"32","end":"1","active":"40","base":"32","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1716665463448,"type":"Reduced Endurance","damage":"","range":"","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1581819625623,"type":"Leaping","damage":"","range":"","input":"","level":"20","end":"1","active":"15","base":"15","XMLID":"LEAPING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1716665651014,"type":"Accurate","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Wings","uid":1582074371156,"type":"Flight","damage":"25m","range":"","input":"","level":"25","end":"4","active":"40","base":"40","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1716665775531,"type":"x8 Noncombat","damage":"25m","range":"","input":"","level":"3"}]},
+	{"name":"Sealed Suit","uid":1581821530994,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"24","base":"24","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1581821650064,"type":"Immunity","damage":"","range":"","input":"All terrestrial poisons","level":"0"},{"name":"No Name Supplied","uid":1581821558607,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1581821559009,"type":"Safe in High Radiation","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1581821554666,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1581821555482,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1581821558159,"type":"Safe in Low Pressure/Vacuum","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1581821548140,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Dragon's Armor","uid":1581822440171,"type":"Resistant Protection","damage":"","range":"","input":"","level":"40","end":"0","active":"60","base":"60","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1582681378192,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1582681378191,"type":"Impermeable","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Armor helmet","uid":1581822929046,"type":"Flash Defense","damage":"(5 points)","range":"","input":"Sight Group","level":"5","end":"0","active":"5","base":"5","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1581824334753,"type":"Only In Alternate Identity","damage":"(5 points)","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1581824343031,"type":"Linked","damage":"(5 points)","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Armor helmet","uid":1581822819115,"type":"Flash Defense","damage":"(5 points)","range":"","input":"Hearing Group","level":"5","end":"0","active":"5","base":"5","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1581824570432,"type":"Only In Alternate Identity","damage":"(5 points)","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1581824580106,"type":"Linked","damage":"(5 points)","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Night Sight","uid":1581823541467,"type":"Ultraviolet Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"ULTRAVIOLETPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1581824515007,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1581824529828,"type":"Linked","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"See Magic","uid":1581822985466,"type":"Detect","damage":"13-","range":"","input":"A Class Of Things","level":"0","end":"0","active":"10","base":"10","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1581824541583,"type":"Only In Alternate Identity","damage":"13-","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1581824551952,"type":"Linked","damage":"13-","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1724537174222,"type":"Discriminatory","damage":"13-","range":"","input":"","level":"0"}]},
+	{"name":"Manifest Armor","uid":1581823663163,"type":"Transform","damage":"1d6","range":"30m","input":"Current clothes into armor/armor into any clothesCosmetic","level":"1","end":"1","active":"6","base":"3","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1581823768547,"type":"Trigger","damage":"1d6","range":"30m","input":"Set Trigger","level":"0"},{"value":"+¼","name":"","uid":1581823886423,"type":"Improved Results Group","damage":"1d6","range":"30m","input":"","level":"0"},{"value":"-½","name":"","uid":1581823953697,"type":"Limited Target","damage":"1d6","range":"30m","input":"([Limited]","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1581823683628,"type":"Healed back by","damage":"1d6","range":"30m","input":"","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Dragon's Might","uid":1581817956139,"gameEdition":6,"tool":"STR , 4 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Claw Slap","uid":1581818566657,"gameEdition":6,"tool":"STR , 4 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Enhanced Strength","uid":1716665934592,"gameEdition":6,"tool":"STR , 1 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Claws","uid":1716665968713,"gameEdition":6,"tool":"2d6 (4d6 w/STR), Killing Attack - Hand-To-Hand (vs. ED) , 3 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Dragon's Breath","uid":1583117638213,"gameEdition":6,"tool":"8d6, Blast (vs. ED) , 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Manifest Armor","uid":1581823663163,"gameEdition":6,"tool":"1d6, Transform (vs. Current clothes into armor/armor into any clothes,Cosmetic) 30m, 1 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
